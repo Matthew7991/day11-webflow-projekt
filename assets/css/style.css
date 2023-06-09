@@ -87,21 +87,21 @@ article a, article p {
   margin-top: 16px;
 }
 
-.large {
+.current {
   margin-left: 100px;
 }
 
-.large article {
+.current article {
   flex-direction: row-reverse;
   align-items: center;
 }
 
-.large article div {
+.current article div {
   text-align: start;
   padding-right: 64px;
 }
 
-.large article img {
+.current article img {
   min-width: 50vw;
 }
 
@@ -128,4 +128,21 @@ article a, article p {
   padding-bottom: 32px;
 }
 
+.full {
+  padding-left: 100px;
+  margin-right: 100px;
+  align-items: center;
+}
 
+.full img {
+  width: 80%;
+}
+.full div {
+  margin-top: 32px;
+}
+.full div p {
+  text-align: left;
+}
+.full div a {
+  display: none;
+}

@@ -36,6 +36,9 @@ p, a {
   text-decoration: none;
 }
 
+section:not(:first-of-type) {
+margin-top: 128px;}
+
 /*
 ==========================================================
                             Header
@@ -64,3 +67,65 @@ header nav {
 main {
   margin: 16px 0;
 }
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article div {
+  text-align: center;
+}
+
+article a {
+  display: inline-block;
+  padding: 8px 32px;
+  border: black solid 2px;
+}
+
+article a, article p {
+  margin-top: 16px;
+}
+
+.large {
+  margin-left: 100px;
+}
+
+.large article {
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.large article div {
+  text-align: start;
+  padding-right: 64px;
+}
+
+.large article img {
+  min-width: 50vw;
+}
+
+.blogposts {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.blogposts > div {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.preview {
+  width: 45%;
+}
+
+.preview div {
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+
